@@ -1,0 +1,134 @@
+/* === ESTILOS GERAIS === */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5fef7; /* branco esverdeado suave */
+  color: #033d1e; /* verde escuro elegante */
+}
+
+/* Container principal */
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 80, 40, 0.1);
+}
+
+/* === TITULOS === */
+h1, h2 {
+  text-align: center;
+  color: #0c7c3f; /* verde mais vibrante */
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+/* === MENSAGENS === */
+.mensagem {
+  padding: 12px;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.mensagem.sucesso {
+  background-color: #d9fce5;
+  color: #0c7c3f;
+  border: 1px solid #0c7c3f50;
+}
+
+.mensagem.erro {
+  background-color: #ffe5e5;
+  color: #a10000;
+  border: 1px solid #ff8d8d;
+}
+
+/* === FORMULÁRIO === */
+.aluno-form {
+  margin-bottom: 25px;
+  background: #ecfff0;
+  padding: 20px;
+  border-radius: 10px;
+  border-left: 5px solid #0c7c3f;
+}
+
+.aluno-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.aluno-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #b8dfc5;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  outline: none;
+}
+
+.aluno-form input:focus {
+  border-color: #0c7c3f;
+  box-shadow: 0 0 5px #0c7c3f60;
+}
+
+/* Botão cadastrar */
+.aluno-form button {
+  width: 100%;
+  padding: 12px;
+  background: #0c7c3f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.aluno-form button:hover {
+  background: #065e2d;
+}
+
+/* === LISTA DE ALUNOS === */
+.lista-alunos ul {
+  list-style: none;
+  padding: 0;
+}
+
+.lista-alunos li {
+  background: #f8fffa;
+  margin-bottom: 12px;
+  padding: 15px;
+  border-radius: 10px;
+  border-left: 6px solid #0c7c3f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0, 80, 40, 0.1);
+}
+
+.lista-alunos li div {
+  max-width: 70%;
+}
+
+/* Botão deletar */
+.botao-deletar {
+  background: #ff5050;
+  border: none;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.botao-deletar:hover {
+  background: #cc0000;
+}
